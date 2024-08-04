@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #00ffee, #00ffcc, #00fed4, #ffffff); /* Gradasi dari warna oranye ke kuning */
+}
+
+header {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo-input {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.todo-button {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2fd857;
+    color: white;
+    font-size: 5.5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.todo-button i {
+    margin-right: 5px;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filter-todos {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.Masukan {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 5.5px;
+    cursor: pointer;
+}
